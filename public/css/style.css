@@ -1,11 +1,45 @@
-body{
-/* 	background:
-	radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
-	radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px), #8a3;
-	background-size: 20px 20px; */
+/* body{
 	background-image: url(../images/mustache-and-presents.png);
-}
+} */
 
 h1{
 	font-family: 'Archivo Black', sans-serif;
+}
+
+
+body{
+    width:100px;
+    height:20px;
+    background:red;
+    animation:myfirst 10s;
+  -moz-animation:myfirst 10s infinite;
+-webkit-animation:myfirst 10s infinite;
+}
+
+@-moz-keyframes myfirst
+{
+0%   {background:red;}
+50%  {background:blue;}
+100%   {background:purple}
+}
+
+@-webkit-keyframes myfirst
+{
+0%   {background:red;}
+50%  {background:blue;}
+100%   {background:purple}
+}
+
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+   textarea {
+  position: horizontal;
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
 }

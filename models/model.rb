@@ -1,7 +1,9 @@
 require "dinosaurus"
+require 'pry'
 
 Dinosaurus.configure do |config|
-  config.api_key = '"EoOC36jjbsmshkuzitoYp6lq9V7ip1s4IgpjsnUFC4qZvz3TGE"'
+#   config.api_key = '"EoOC36jjbsmshkuzitoYp6lq9V7ip1s4IgpjsnUFC4qZvz3TGE"' //javaris' key
+  config.api_key = "97d57e448bc0fdc00ea0ecb5f506a132" #mr Budi's key
 end
 
 def changing_words(sentence)
