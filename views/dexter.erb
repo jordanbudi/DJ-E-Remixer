@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<title>Your words more eloquesnt</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
-	</head>
-  <body>
-	<img src="images/dexter.png" width=425 height=469>
+    <link  rel='stylesheet' type='text/css' href="css/materialize.css">
+    <link  rel='stylesheet' type='text/css' href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  </head>
 
-	<h1><%=@smart_sentence%></h1>
+  <body>
+    
+    <div class="row">
+      <div class="container center">
+		    <h1>The DJ E Remixer</h1>
+        <h4>Your words, more eloquent.</h4>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="container center">        
+          <div class="col s4">
+            <img src="images/robots/robot01.png"  width="250" height="359">
+          </div>
+          <div class="input-field col s6">
+            <div class="white" id="speech-bubble">
+	            <h1><%=@smart_sentence%></h1>
+            </div>
+          </div>
+      </div>
+    </div>
+
 	</body>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  </script>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+  </script>
+
+
 </html>
+    
+    
+    
+    
+    
