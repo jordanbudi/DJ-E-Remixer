@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link  rel='stylesheet' type='text/css' href="css/materialize.css">
     <link  rel='stylesheet' type='text/css' href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-		<h1>DJ Edmonds Remix</h1>
-    <img src="images/PeterGriffin.jpg" height="440" width="442">
-
-		<form method="POST" action="/dexter">
-    	<input type="text" name="sentence" size="50">
-  		<input type="submit">
-    </form>
+    
+    <div class="row">
+      <div class="container center">
+		    <h1>The DJ E Remixer</h1>
+        <h4>Your words, more eloquent.</h4>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="container center">        
+        <form method="POST" action="/dexter">
+          <div class="col s4">
+            <img src="images/peter/pg01.png"  width="250" height="359">
+          </div>
+          <div class="input-field col s6">
+            <div class="white" id="speech-bubble">
+              <textarea id="textarea1" class="materialize-textarea" placeholder="Type Message" name="messagefor                text"></textarea>
+            </div>
+          <button class="btn waves-effect waves-light teal darken-4" type="submit" name="action">Make Me Sound Smart!
+            <i class="large material-icons right">spellcheck</i>
+          </button>
+          </div>
+        </form>
+      </div>
+    </div>
 
 	</body>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  </script>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+  </script>
+
+
 </html>

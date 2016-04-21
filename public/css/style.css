@@ -3,9 +3,27 @@ body{
 }
 
 h1{
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Vollkorn', serif;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 
+h4{
+  font-family: 'Pacifico', cursive;
+  margin-top: 0px;
+}
+
+#textarea1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.85em;
+}
+
+#speech-bubble{
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 90px;
+  margin-bottom: 15px;
+}
 
 /* body{
     width:100px;
