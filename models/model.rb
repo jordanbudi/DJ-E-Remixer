@@ -7,7 +7,7 @@ Dinosaurus.configure do |config|
 end
 
 def changing_words(sentence)
-	ignore_these_words = ["be", "are","is","were", "am", "i", "you"]
+	ignore_these_words = ["be", "are","is","were", "am", "i", "you", "to"]
 	list_of_words = sentence.split
 	list_of_words.map! do |word|
 			if(ignore_these_words.include?(word.downcase))

@@ -21,7 +21,9 @@ h4{
 #speech-bubble{
   padding-left: 45px;
   padding-right: 45px;
-  border-radius: 90px;
+  padding-top: 10px;
+  padding-bottom 60px;
+  border-radius: 120px;
   margin-bottom: 15px;
 }
 
