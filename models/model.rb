@@ -16,7 +16,7 @@ def changing_words(sentence)
 				word = Dinosaurus.synonyms_of(word).sample || word
 			end
 	end
-	return smart_sentence = list_of_words.join(" ")
+	return smart_sentence = list_of_words.join(" ").capitalize
 end
 
 
