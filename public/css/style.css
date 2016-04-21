@@ -1,13 +1,13 @@
-/* body{
+body{
 	background-image: url(../images/mustache-and-presents.png);
-} */
+}
 
 h1{
 	font-family: 'Archivo Black', sans-serif;
 }
 
 
-body{
+/* body{
     width:100px;
     height:20px;
     background:red;
@@ -42,4 +42,4 @@ IMG.displayed {
   top: 5px;
   right: 5px;
   bottom: 5px;
-}
+} */
